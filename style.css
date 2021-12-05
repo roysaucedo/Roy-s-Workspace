@@ -8,6 +8,8 @@ body {
     background-color: rgb(250, 250, 250);
 }
 
+
+
 .main-nav {
     padding: 20px 0;
 }
@@ -48,7 +50,19 @@ h2 {
     font-weight: 500;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 5px;
+}
+
 /* TIMER */
+
+.timer {
+    height: 200px;
+    background-color: blue;
+    margin: 20px 0px;
+}
 
 .button-div {
     display: flex;
@@ -184,3 +198,9 @@ ul {
 
 
   
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
