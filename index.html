@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roy's Workspace - Work Smarter Not Harder</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://d3k81ch9hvuctc.cloudfront.net/company/UJwca4/images/fa8d0f01-8ab2-42a9-acd2-854a61002b0d.png"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-nav">
+        <div class="logo">
+          <img src="" alt="" />
+          <h1 class="title">Roy's Workspace</h1>
+          <h2 class="subheader">Work Smarter Not Harder</h2>
+        </div>
+      </div>
+      <div class="main-div timer-main-div">
+        <h1>Pomodoro Timer</h1>
+        <h2>
+          25 minute session. 5 minute break. After 3 rounds, take a 20 Minute
+          break.
+        </h2>
+        <div class="timer">
+
+        </div>
+        <div class="button-div">
+          <button>Start</button>
+          <button>Stop</button>
+          <button>Reset</button>
+        </div>
+      </div>
+      <div class="main-div to-do-list-main-div">
+        <h1>Today's Tasks</h1>
+        <h2>Get organized and knock out one task at a time.</h2>
+        <div class="header">
+          <input type="text" id="myInput" placeholder="What are you working on today?" />
+          <button onclick="newElement()" class="addBtn">Add</button>
+        </div>
+        <ul id="myUL">
+          <!-- <li>User research</li>
+          <li class="checked">Read 1 chapter</li>
+          <li>Reply to emails</li>
+          <li>Set up reporting dashboard</li>
+          <li>Write article for blog</li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
