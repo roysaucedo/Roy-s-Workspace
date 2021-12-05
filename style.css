@@ -65,11 +65,13 @@ a {
 }
 
 .button-div {
+    width: 300px;
     display: flex;
+    justify-content: space-between;
 }
 
 button {
-    padding: 7px 35px;
+    padding: 7px 25px;
     font-weight: 500;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
